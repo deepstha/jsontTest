@@ -1,11 +1,21 @@
 {
   "data":[
-     {"id":1, "text":"Project #1", "start_date":"01-04-2013", "duration":18},
-     {"id":2, "text":"Task #1", "start_date":"02-04-2013","duration":8, "parent":1},
-     {"id":3, "text":"Task #2", "start_date":"11-04-2013","duration":8, "parent":1}
-  ],
-  "links":[
-     {"id":1, "source":1, "target":2, "type":"1"},
-     {"id":2, "source":2, "target":3, "type":"0"}
-  ]
+      {
+          "id": 2,
+          "job": "16089 - Deep Pockets. Deeppockets",
+          "text": "ads Creative",
+          "start_date": "04-06-2019 08:30",
+          "end_date": "04-06-2019 09:00",
+          "link_url": "ticket-details.html"
+
+      },
+      {
+          "id": 3,
+          "job": "15932 - Parenting Research Centre. MBS - Parentingrc.org.au Maintenance",
+          "text": "My Creative",
+          "start_date": "04-06-2019 09:00",
+          "end_date": "04-06-2019 09:30",
+          "link_url": "ticket-details.html",
+      },
+   ]
 }
